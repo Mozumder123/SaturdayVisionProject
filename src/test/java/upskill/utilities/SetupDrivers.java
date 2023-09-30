@@ -17,7 +17,7 @@ public class SetupDrivers {
 	public static WebDriver driver;							//initializing driver
 	
 	public static void setupDriver(){
-		System.setProperty("webdriver.chrome.driver", "C:\\UpSkillSoftware\\chromeDriver\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "C:\\UpSkill\\chromeDriver\\chromedriver.exe");
 //		WebDriverManager.chromedriver().setup();			//getting the chrome driver from cloud	
 		ChromeOptions options = new ChromeOptions();		//initializing chrome options
 		options.addArguments("--start-maximized");			//add argument to maximize browser
